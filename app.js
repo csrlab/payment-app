@@ -17,6 +17,7 @@ const {initializePayment, verifyPayment} = require('./config/paystack')(request)
 
 const port = process.env.PORT || 3000;
 
+const app = express();
 
 
 app.use(bodyParser.json());
